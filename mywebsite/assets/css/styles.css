@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  /* background-color: black; */
+  background: linear-gradient(to bottom right, #2f2d31, #d8bbaa )!important; 
+  color: white;
+}
+.header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    font-family: 'Dancing Script', cursive;
+
+  }
+  
+  /* Increase the font size of the <h1> element */
+.header h1 {
+    font-size: 40px;
+  }
+
+  /* Style the top navigation bar */
+/* .navbar {
+    overflow: hidden; 
+    background-color: #333;  */
+  
+  /* Style the navigation bar links */
+/* .navbar a {
+    float: right;
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+  } */
+/* Change color on hover/mouse-over */
+/* .navbar a:hover {
+    background-color: #ddd; 
+    color: black; */
+  
+/* Ensure proper sizing */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .refresh{
+    padding: 80px; 
+    text-align: center;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+h1 {
+
+    text-align: center;
+  }
+ 
+/* ul li a {
+    color: white;
+} */
+.extra{
+  color: white !important;
+}
+
+.dbox {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 0 20px; }
+  @media (min-width: 768px) {
+    .dbox {
+      margin-bottom: 0;
+      padding: 0; } }
+  .dbox p {
+    margin-bottom: 0; }
+    .dbox p span {
+      font-weight: 500;
+      color: #bc9864;
+      display: block; }
+    .dbox p a {
+      color: rgba(255, 255, 255, 0.8); }
+  .dbox .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #bc9864;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+    .dbox .icon span {
+      font-size: 20px;
+      color: #000; }
+  .dbox .text {
+    width: 100%; }
+ 
+
+    .get-in-touch {
+      max-width: 800px;
+      margin: 50px auto;
+      position: relative;
+    
+    }
+    .get-in-touch .title {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 3.2em;
+      line-height: 48px;
+      padding-bottom: 48px;
+         color: black;
+        /* background: #5543ca;
+        background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+        background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+        background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+        -webkit-background-clip: text !important; 
+        -webkit-text-fill-color: transparent !important; */
+    }
+    
+    .contactForm .form-field {
+      position: relative;
+      margin: 32px 0;
+    }
+    .contactForm .input-text {
+      display: block;
+      width: 100%;
+      height: 36px;
+      border-width: 0 0 2px 0;
+      border-color: black;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+      background: #bc9864;
+    }
+    .contactForm .input-text:focus {
+      outline: none;
+    }
+    .contactForm .input-text:focus + .label,
+    .contactForm .input-text.not-empty + .label {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+    }
+    .contactForm .label {
+      position: absolute;
+      left: 20px;
+      bottom: 11px;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+      color: black;
+      cursor: text;
+      transition: -webkit-transform .2s ease-in-out;
+      transition: transform .2s ease-in-out;
+      transition: transform .2s ease-in-out, 
+      -webkit-transform .2s ease-in-out;
+    }
+    .contactForm .submit-btn {
+      display: inline-block;
+      background-color: #000;
+       background-image: linear-gradient(125deg,black,#bc9864);
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 16px;
+      padding: 8px 16px;
+      border: none;
+      width:200px;
+      cursor: pointer;
+    }
+    .contactForm .label {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600; }
+    
+    .contactForm .form-control {
+      border: none; }
+    
+    .contactForm .btn {
+      width: 100%;
+      display: block; }
+    
+    #contactForm .error {
+      color: #f65c78;
+      font-size: 12px; }
+    
+    #contactForm .form-control {
+      font-size: 16px; }
+    
+    #message {
+      resize: vertical; }
+    
+    #form-message-warning, #form-message-success {
+      display: none; }
+    
+    #form-message-warning {
+      color: red; }
+    
+    #form-message-success {
+      color: #28a745;
+      font-size: 20px;
+      font-weight: 700; }
+    
+    .submitting {
+      float: left;
+      width: 100%;
+      padding: 10px 0;
+      display: none;
+      font-size: 16px;
+      font-weight: 500; }   
+    
+/* p {
+    font-family: verdana;
+    font-size: 20px;
+  } */
+
+.customimg{
+    object-fit:contain;
+    width: 300px;
+    height: 300px;
+    float: left; 
+    margin: 5px;
+}
+img:hover {
+    transform: scaleX(-1);
+  }
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 368px) {
+    img.smallResolution{
+        min-height: 150px;
+    }
+  }
+
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .carousel-img
+{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.side{
+  color: black;
+}
+.side h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 1000;
+  font-weight:1000;
+}
+
+.side h2 ,p{
+  font-family: 'Playfair Display', serif;
+}
+
+
+/* .side p{} */
+
+
+.main{
+  color: black;
+  /* font-family: 'Dancing Script', cursive; */
+}
+.main h1{
+  font-family: 'Dancing Script', cursive;
+}
+.main p{
+  font-family: 'Playfair Display', serif;
+  font-size: 100%;
+}
+
+.card-body{
+  color: #000;
+}
+
+  .footer {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: linear-gradient(to bottom right, #2f2d31, #888481 )!important;
+    font-family: 'IBM Plex Serif', serif;
+    
+  }
+
+.contactPage{
+  background-color: white;
+}
+
